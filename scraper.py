@@ -10,7 +10,7 @@ import csv
 START_URL = "https://exoplanets.nasa.gov/exoplanet-catalog/"
 
 # Webdriver
-browser = webdriver.Chrome(executable_path=r"F:\Python\Classes\Class 127\chromedriver.exe")
+browser = webdriver.Chrome(executable_path=r"./chromedriver.exe")
 browser.get(START_URL)
 
 time.sleep(10)
